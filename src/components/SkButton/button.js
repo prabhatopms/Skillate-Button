@@ -1,5 +1,5 @@
-import * as theme from '../../../styles/theme.js';
-import { css } from 'react-emotion';
+import * as theme from '../../styles/theme.js';
+import { css } from 'emotion';
 
 export const btn = css`
   display: inline-flex;

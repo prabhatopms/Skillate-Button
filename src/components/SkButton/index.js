@@ -6,7 +6,7 @@ import FAIcon from '../FAIcon';
 
 import * as buttonStyle from './button.js';
 import { MiniLoader } from '../Loader';
-import { hasPermission } from 'utils/hasPermission';
+
 
 const propTypes = {
   category: PropTypes.string,
@@ -71,10 +71,10 @@ class SkButton extends React.Component {
       iconType,
       height,
       style,
-      permission,
+      
       ...attributes
     } = this.props;
-    if (permission && !hasPermission(permission)) return null;
+ 
 
     let classes = classNames(className, buttonStyle.btn, {
       [buttonStyle.btn_primary]: category === 'primary' && !disabled,
