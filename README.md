@@ -38,7 +38,9 @@ The button can be accompanied with an icon. The props for the same are as follow
 * iconColor
 
 iconName takes in the font-awesome name of the icon as it is. Before you pass a name, make sure to import that icon first in the FAIcon file. If iconName is defined and no text is defined in the button then only icon button renders.
-iconAlign is either left (default) or right
+
+iconAlign is either left (default) or right.
+
 iconColor also takes in a string, which can be again defined as a mapping in FAIcon file.
 
 ### Other Props
@@ -60,8 +62,10 @@ In the project directory, you can run:
 npm install and then npm start
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+## Live Demo
+Please view this sandbox link see how it looks.
 
 
