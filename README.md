@@ -68,4 +68,7 @@ You will also see any lint errors in the console.
 ## Live Demo
 [Please view this sandbox link to see how it looks](https://codesandbox.io/s/beautiful-napier-i38nu).
 
+# Disclaimer
+
+This is just an explanation code done by me for portfolio showcase. The code is not matured enough to be used in any projects. However please feel free to fork it and help me update this repo. 
 
