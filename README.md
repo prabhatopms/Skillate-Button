@@ -66,6 +66,6 @@ The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 ## Live Demo
-Please view this sandbox link see how it looks.
+[Please view this sandbox link see how it looks](https://codesandbox.io/s/beautiful-napier-i38nu).
 
 
