@@ -5,9 +5,14 @@ import SkButton from "./components/SkButton";
 function App() {
   return (
     <div className="App">
-      <h2>Button Styles</h2>
+      <h2 style={{ textAlign: "left", paddingBottom: "20px" }}>
+        Button Styles
+      </h2>
+      <div style={{ textAlign: "left", marginLeft: "20px" }}>
+        {" "}
+        Regular Buttons
+      </div>
       <div className="setLight">
-        <div style={{ width: "150px" }}> Regular Buttons</div>
         <SkButton>Text</SkButton>
         <SkButton iconName="envelope"></SkButton>
         <SkButton iconName="envelope">Left Icon</SkButton>
@@ -18,8 +23,11 @@ function App() {
           Loading
         </SkButton>
       </div>
+      <div style={{ textAlign: "left", marginLeft: "20px" }}>
+        {" "}
+        Primary Buttons
+      </div>
       <div className="setLight">
-        <div style={{ width: "150px" }}> Primary Buttons</div>
         <SkButton category="primary">Text</SkButton>
         <SkButton iconName="envelope" category="primary"></SkButton>
         <SkButton iconName="envelope" category="primary">
@@ -32,8 +40,11 @@ function App() {
           Loading
         </SkButton>
       </div>
+      <div style={{ textAlign: "left", marginLeft: "20px" }}>
+        {" "}
+        Grey Background Buttons
+      </div>
       <div className="setLight">
-        <div style={{ width: "150px" }}> Grey Background Buttons</div>
         <SkButton category="secondary-grey">Text</SkButton>
         <SkButton iconName="envelope" category="secondary-grey"></SkButton>
         <SkButton iconName="envelope" category="secondary-grey">
@@ -50,25 +61,30 @@ function App() {
           Loading
         </SkButton>
       </div>
+      <div style={{ textAlign: "left", marginLeft: "20px" }}>
+        {" "}
+        Dark Background Buttons
+      </div>
       <div className="setDark">
-        <div style={{ width: "150px", color: "#fff" }}>
-          {" "}
-          Dark Background Buttons
+        <div className="setDarkContent">
+          <SkButton category="skeleton">Text</SkButton>
+          <SkButton iconName="envelope" category="skeleton"></SkButton>
+          <SkButton iconName="envelope" category="skeleton">
+            Left Icon
+          </SkButton>
+          <SkButton iconName="envelope" iconAlign="right" category="skeleton">
+            Right Icon
+          </SkButton>
+          <SkButton iconName="envelope" loading category="skeleton">
+            Loading
+          </SkButton>
         </div>
-        <SkButton category="skeleton">Text</SkButton>
-        <SkButton iconName="envelope" category="skeleton"></SkButton>
-        <SkButton iconName="envelope" category="skeleton">
-          Left Icon
-        </SkButton>
-        <SkButton iconName="envelope" iconAlign="right" category="skeleton">
-          Right Icon
-        </SkButton>
-        <SkButton iconName="envelope" loading category="skeleton">
-          Loading
-        </SkButton>
+      </div>
+      <div style={{ textAlign: "left", marginLeft: "20px" }}>
+        {" "}
+        Buttons Without Border{" "}
       </div>
       <div className="setLight">
-        <div style={{ width: "150px" }}> Buttons Without Border </div>
         <SkButton category="borderless">Text</SkButton>
         <SkButton iconName="envelope" category="borderless"></SkButton>
         <SkButton iconName="envelope" category="borderless">
@@ -81,9 +97,11 @@ function App() {
           Loading
         </SkButton>
       </div>
-
+      <div style={{ textAlign: "left", marginLeft: "20px" }}>
+        {" "}
+        Miscellaneous Buttons
+      </div>
       <div className="setLight">
-        <div style={{ width: "150px" }}> Miscellaneous Buttons</div>
         <SkButton iconName="envelope" isDanger>
           Danger
         </SkButton>
